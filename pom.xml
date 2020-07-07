@@ -6,6 +6,7 @@
     <artifactId>hello-world-maven</artifactId>
     <packaging>jar</packaging>
     <version>1.0.0</version>
+    <name>hello-world-app</name>
 
     <!-- tag::joda[] -->
      <properties>
