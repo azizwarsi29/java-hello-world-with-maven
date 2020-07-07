@@ -23,7 +23,7 @@ pipeline {
                     nexusUrl: '192.168.99.100:8081', 
                     nexusVersion: 'nexus3', 
                     protocol: 'http', 
-                    repository: 'http://192.168.99.100:8081/repository/helloworld-release/', 
+                    repository: 'helloworld-release', 
                     version: '1.0.0'
             }
         }
