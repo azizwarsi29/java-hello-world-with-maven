@@ -15,7 +15,7 @@ pipeline {
                     [
                         artifactId: 'hello-world-maven', 
                         classifier: '', 
-                        file: 'target/hello-world-app-1.0.0.jar', 
+                        file: 'target/hello-world-maven-1.0.0.jar', 
                         type: 'jar'
                     ]], 
                     credentialsId: 'nexus', 
